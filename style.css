@@ -1,0 +1,92 @@
+body {
+    background-color: #000;
+    color: #e0dfe4;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: #1c1c1c;
+    color: #e0dfe4;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.form-control {
+    background-color: #1c1c1c;
+    color: #e0dfe4;
+    border: none;
+}
+
+.form-control::placeholder {
+    color: #e0dfe4;
+}
+
+.btn-primary {
+    background-color: #2480fd;
+    border: none;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #1a6edb;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #bd2130;
+}
+
+.list-group-item {
+    background-color: #1c1c1c;
+    color: #e0dfe4;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+a {
+    color: #2480fd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1a6edb;
+    text-decoration: underline;
+}
+
+h1, h5, p {
+    color: #e0dfe4;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.me-2 {
+    margin-right: 10px;
+}

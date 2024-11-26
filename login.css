@@ -1,0 +1,11 @@
+body {background-color: #000;}
+
+.card, .form-control {background-color: #1c1c1c; color: #e0dfe4;}
+
+.form-control {border: none;}
+
+.form-control::placeholder {color: inherit;}
+
+.btn-primary {background-color: #2480fd; border: none;}
+
+.btn-primary:hover {background-color: #1a6edb;}
